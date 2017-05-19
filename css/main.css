@@ -20,28 +20,81 @@ body{
 body, html {
     height: 100%;
 }
-
-/* The hero image */
-.hero-image {
-    /* The image used */
-    background-image: url("sauce afbeeldingen/zwart wit.jpg");
-
-    /* Set a specific height */
-    height: 50%;
-
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
 }
 
-/* Place text in the middle of the image */
-.hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+li a {
+    display: block;
+    padding: 8px 50px;
+    color: #FFF;
+}
+#Logo{
+    height: 20%;
+    margin: 2rem;
+}
+
+.hero {
+  background: #DDD url('../sauce afbeeldingen/zwart wit.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  500px;
+  position: relative;
+}
+
+.hero_text { 
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  position:  absolute;
+  color: #FFF;
+  top: 30%;
+  left: 50%;
+  text-align: left;
+}
+
+.hero_title { 
+  margin: 0;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+.hero_button {
+  display: inline-block;
+  padding: 12px 20px;
+  background:  transparent;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-top: 20px;
+  border-radius: 20px;
+  border: 1px solid #FFF;
+  outline: none;
+}
+
+.hero_button:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background: #FFF;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px 50px;
+    color: #FFF;
 }
