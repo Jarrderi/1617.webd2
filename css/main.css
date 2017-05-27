@@ -1,43 +1,33 @@
 body{
-    background-color: gray;
-}
-.button{
-    display: inline-block;
-    padding: 8px 15px;
-    color: #FFF;
-    background-color: hsl(240, 50%, 50%);
-    border: solid 1px hsl(240, 50%, 50%);
-    border-radius: 3;
-    border-bottom: solid 3px hsl(240, 50%, 30%);
-    text-decoration: none;
-}
-.button:hover{
-    background-color: white;
-    color: hsl(240, 50%, 50%);
-    border-color: hsl(240, 50%, 50%);
-    border-bottom: solid 1px hsl(240, 50%, 50%);
+    background-color: #dadada;
 }
 body, html {
     height: 100%;
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     overflow: hidden;
 }
 li {
-    float: left;
+    margin-top: 3%;
+    float:left; 
+    display: block;
+    width: 15%;
+    text-align: center;
 }
-
 li a {
     display: block;
-    padding: 8px 50px;
+    padding: 20px 30px;
     color: #FFF;
+    float: left;
 }
 #Logo{
-    height: 20%;
-    margin: 2rem;
+    height: 15%;
+    min-height: 10%;
+    margin: 4rem;
+    float:left;
 }
 
 .hero {
@@ -54,10 +44,10 @@ li a {
   font-weight: 400;
   font-size: 1.2rem;
   position:  absolute;
+  right: 15%;
   color: #FFF;
-  top: 30%;
-  left: 50%;
-  text-align: left;
+  top: 35%;
+  text-align: right;
 }
 
 .hero_title { 
@@ -68,7 +58,7 @@ li a {
 
 .hero_button {
   display: inline-block;
-  padding: 12px 20px;
+  padding: 13px 27px;
   background:  transparent;
   text-decoration: none;
   text-transform: uppercase;
@@ -77,6 +67,7 @@ li a {
   border-radius: 20px;
   border: 1px solid #FFF;
   outline: none;
+
 }
 
 .hero_button:hover {
@@ -89,12 +80,31 @@ ul {
     padding: 0;
     overflow: hidden;
 }
-li {
-    float: left;
-}
-
-li a {
+#Fb{
     display: block;
-    padding: 8px 50px;
-    color: #FFF;
+    position: relative;
+    left:50%;
+    max-width: 2%;
+    margin: 1%;
+    margin-top: 2%;
+    float:left;
+}
+#Twitter{
+    display:block;
+    position: relative;
+    left:50%;
+    max-width: 2.5%;
+    margin: 1%;
+    margin-top: 2%;
+    float:left;
+}
+footer{
+    background-color: #9c9b92;
+    display: inline-block;
+}
+footer p {
+    float: left;
+    padding: 1%;
+    padding-left: 4%;
+    padding-top:1%; 
 }
