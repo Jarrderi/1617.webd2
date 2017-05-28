@@ -1,0 +1,92 @@
+.hero {
+  background: #DDD url('../sauce afbeeldingen/computer-zwart-wit.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  500px;
+  position: relative;
+}
+.logos, .magazines, .posters, .websites{
+    background-size: cover;
+  width: 400px;
+  height: 130px;
+  margin: 10px;
+  padding: 10% 10% 0 10%;
+  position: relative;
+  float: left;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.websites {
+  background: 
+    url('../sauce afbeeldingen/html-on-sheet-2gsqh5s.jpg');
+    filter: grayscale(100%);
+    margin-left: 25%;
+}
+.posters {
+  background: 
+    url('../sauce afbeeldingen/18922867-muziekconcept-affichemalplaatje.jpg');
+    filter: grayscale(100%);
+}
+.logos {
+  background: 
+    url('../sauce afbeeldingen/Logo cinema.png');
+    filter: grayscale(100%);
+}
+.magazines {
+  background: 
+    url('../sauce afbeeldingen/boeken-genaaid_115994425.jpg');
+    filter: grayscale(100%);
+    margin-left: 25%;
+}
+.mid h2 {
+  font-family:'Arial Narrow', sans-serif;
+  font-stretch: condensed;
+  font-weight: lighter;
+  color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translate(-50%, -50%);
+}
+.contactbutton{
+  display: inline-block;
+  padding: 20px 70px;
+  background:  transparent;
+  text-decoration: none;
+  color: #FFF;
+  margin: 2%;
+  margin-left: 31%;
+  margin-top: 1%;
+  border-radius: 30px;
+  border: 2px solid #FFF;
+  outline: none;
+}
+.contactbutton:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background: #FFF;
+}
+.portibutton{
+  display: inline-block;
+  padding: 20px 70px;
+  background:  transparent;
+  text-decoration: none;
+  color: #FFF;
+  margin: 2%;
+  margin-right: 31%;
+  margin-top: -6.5%;
+  border-radius: 30px;
+  border: 2px solid #FFF;
+  outline: none;
+  float: right;
+}
+.portibutton:hover {
+  color: rgba(0, 0, 0, 0.5);
+  background: #FFF;
+}
+h2{
+  font-size: 5rem;
+  margin: 1%;
+}

@@ -1,0 +1,92 @@
+.hero {
+  background: #DDD url('../sauce afbeeldingen/she-174403-Business-meeting.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height:  500px;
+  position: relative;
+}
+#zwartLogo{
+    float: left;
+    height: 18%;
+    margin: 3%;
+}
+.introductieBedrijf{
+    display: inline-block;
+    margin: 2%;
+    width: 30%;
+    height: 20%;
+    font-size: 120%;
+}
+h2{
+    float: left;
+    margin-left: -40%;
+    margin-top: 15%;
+    font-size: 5rem;
+}
+.cropJarryd{
+    width: 400px;
+    height: 400px;
+    margin-top: 10%;
+    margin-left: 10%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.cropJarryd img {
+    width: 100%;
+    height: auto;
+    margin: -5px  0 15px 0px;
+}
+.introJarryd{
+    position: relative;
+    font-size: 120%;
+    float: left;
+     width: 30%;
+    margin-left: 45%;
+    top: -240px;
+}
+
+.cropSanne{
+    width: 400px;
+    height: 400px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.cropSanne img {
+    width: 200%;
+    height: auto;
+    margin: -15px 0px 0px -200px;
+}
+.introSanne{
+      position: relative;
+    font-size: 120%;
+    float: left;
+     width: 30%;
+    margin-left: 45%;
+    top: -240px;
+} 
+.cropRobert{
+    width: 400px;
+    height: 400px;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.cropRobert img {
+    width: 200%;
+    height: auto;
+    margin: -70px 0px 0px -200px;
+}
+.introRobert{
+      position: relative;
+    font-size: 120%;
+    float: left;
+     width: 30%;
+    margin-left: 45%;
+    top: -240px;
+} 
